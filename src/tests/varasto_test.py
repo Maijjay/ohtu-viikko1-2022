@@ -10,9 +10,10 @@ class TestVarasto(unittest.TestCase):
         # https://docs.python.org/3/library/unittest.html#unittest.TestCase.assertAlmostEqual
         self.assertAlmostEqual(self.varasto.saldo, 0)
     
+    #testi rikki
     def test_konstruktori_ei_voi_luoda_virheellista_tilavuutta(self):
         varasto = Varasto(-3)
-        self.assertEqual(varasto.tilavuus, 0)
+        self.assertEqual(varasto.tilavuus, -4)
 
     def test_konstruktori_ei_voi_luoda_virheellista_saldoa(self):
         self.varasto = Varasto(10, -2)
