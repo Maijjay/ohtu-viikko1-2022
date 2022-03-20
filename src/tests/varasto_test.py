@@ -13,7 +13,7 @@ class TestVarasto(unittest.TestCase):
     #testi rikki
     def test_konstruktori_ei_voi_luoda_virheellista_tilavuutta(self):
         varasto = Varasto(-3)
-        self.assertEqual(varasto.tilavuus, -4)
+        self.assertEqual(varasto.tilavuus, 0)
 
     def test_konstruktori_ei_voi_luoda_virheellista_saldoa(self):
         self.varasto = Varasto(10, -2)
