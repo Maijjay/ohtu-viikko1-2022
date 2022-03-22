@@ -12,3 +12,6 @@ https://github.com/Maijjay/ohtu-tehtavat-2022/tree/main/viikko1
 
 ## Viikko 2
 https://github.com/Maijjay/ohtu-tehtavat-2022/tree/main/viikko2
+
+## Viikko3
+https://github.com/Maijjay/ohtu-tehtavat-2022/tree/main/viikko3
